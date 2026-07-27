@@ -37,7 +37,11 @@ services:
       ## --> https://zulip.readthedocs.io/projects/docker/en/latest/how-to/compose-settings.html
       ##     https://zulip.readthedocs.io/en/stable/production/settings.html
       ##
-      ## The following two settings are required:
+      ## The following two settings are required.  EXTERNAL_HOST is the
+      ## hostname users will type into their browsers, and should be a
+      ## domain name, not an IP address -- if the server has no name in
+      ## DNS, invent one, and configure it in /etc/hosts on every
+      ## machine that will access Zulip.
       SETTING_EXTERNAL_HOST: "zulip.example.com"
       SETTING_ZULIP_ADMINISTRATOR: "zulip-admin@example.com"
 
