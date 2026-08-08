@@ -12,14 +12,14 @@ maintainers:
 ## version (appVersion); breaking changes to the chart's values API
 ## bump the chart's major. Versions are expected to follow Semantic
 ## Versioning (https://semver.org/).
-version: 2.1.0
+version: 2.2.0
 
 ## This is the version number of the application being deployed. This
 ## version number should be incremented each time you make changes to
 ## the application. Versions are not expected to follow Semantic
 ## Versioning. They should reflect the version the application is
 ## using.  It is recommended to use it with quotes.
-appVersion: "12.1-0"
+appVersion: "12.2-0"
 dependencies:
   - name: memcached
     repository: oci://registry-1.docker.io/bitnamicharts
